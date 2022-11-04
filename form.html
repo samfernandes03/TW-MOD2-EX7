@@ -7,6 +7,22 @@
     <title>TW-F02-EX07</title>
 </head>
 <body>
-    
+    <form action="form.html" method="post" id="form1"></form>
+    <fieldset>Personal info</fieldset>
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" pattern="[A-Z][a-z]+\s[A-Z][a-z]+" required>
+      </div>
+      <div>
+        <label for="member">Member</label>
+        <input type="radio" name="membership" id="member" value="member" checked>
+        <label for="non-member">Non-member</label>
+        <input type="radio" name="membership" id="non-member" value="non-member">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+      </div>
+      
 </body>
 </html>
